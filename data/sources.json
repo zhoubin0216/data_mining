@@ -1,0 +1,66 @@
+{
+  "accessed": "2026-11-10",
+  "note": "The corpus files are original, concise paraphrases prepared for algorithm evaluation; they are not copies of the linked articles. Documents 01/02 and 03/04 are controlled editorial revisions.",
+  "documents": {
+    "01_national_result": {
+      "source": "CBS News",
+      "title": "2026 midterm election updates as fallout begins over sweeping Democratic victories",
+      "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+      "relationship": "original paraphrase"
+    },
+    "02_national_result_revision": {
+      "source": "CBS News",
+      "title": "2026 midterm election updates as fallout begins over sweeping Democratic victories",
+      "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+      "relationship": "controlled revision of document 01"
+    },
+    "03_house_leadership": {
+      "source": "Associated Press",
+      "title": "House Republicans are choosing their next leader as they prepare to be in the minority",
+      "url": "https://apnews.com/article/9452bdcf8c16ba84b44fe537ebce0de8",
+      "relationship": "original paraphrase"
+    },
+    "04_house_leadership_revision": {
+      "source": "Associated Press",
+      "title": "House Republicans are choosing their next leader as they prepare to be in the minority",
+      "url": "https://apnews.com/article/9452bdcf8c16ba84b44fe537ebce0de8",
+      "relationship": "controlled revision of document 03"
+    },
+    "05_redistricting": {
+      "source": "Associated Press",
+      "title": "Trump-backed Republican redistricting sought a midterm edge. It didn't work",
+      "url": "https://www.ap.org/news-highlights/elections/2026/trump-backed-republican-redistricting-sought-a-midterm-edge-it-didnt-work/",
+      "relationship": "original paraphrase"
+    },
+    "06_senate_fallout": {
+      "source": "Associated Press",
+      "title": "John Thune seeks another term as Senate Republican leader as the party reckons with election losses",
+      "url": "https://apnews.com/article/aee05eef5d85aafde6fbb27272977a14",
+      "relationship": "original paraphrase"
+    },
+    "07_voter_issues": {
+      "source": "CBS News",
+      "title": "2026 House midterm election results as Democrats capture majority with major wins",
+      "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+      "relationship": "original paraphrase"
+    },
+    "08_unexpected_house_seats": {
+      "source": "Associated Press",
+      "title": "Here are some of the House seats that Democrats didn't expect to win this year",
+      "url": "https://apnews.com/article/0bc9600f5ee30a5740c4a597cd44c6e6",
+      "relationship": "original paraphrase"
+    },
+    "09_georgia_state_house": {
+      "source": "Associated Press",
+      "title": "Democrats flip Georgia state House, giving them new control of at least 12 legislative chambers",
+      "url": "https://apnews.com/article/f89c3edc570adfb6b547b23629437803",
+      "relationship": "original paraphrase"
+    },
+    "10_gop_review": {
+      "source": "CBS News",
+      "title": "Why did Republicans lose the midterm elections? GOP soul-searching begins after blowout",
+      "url": "https://www.cbsnews.com/news/republican-losses-roil-gop-midterms-vance-cruz-desantis/",
+      "relationship": "original paraphrase"
+    }
+  }
+}

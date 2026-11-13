@@ -1,0 +1,344 @@
+{
+  "configuration": {
+    "documents": 10,
+    "bands": 12,
+    "rows_per_band": 10,
+    "approximate_lsh_threshold": 0.7799771419043033
+  },
+  "shingle_counts": {
+    "01_national_result": 1066,
+    "02_national_result_revision": 1078,
+    "03_house_leadership": 1016,
+    "04_house_leadership_revision": 1008,
+    "05_redistricting": 1070,
+    "06_senate_fallout": 1091,
+    "07_voter_issues": 1147,
+    "08_unexpected_house_seats": 1133,
+    "09_georgia_state_house": 1078,
+    "10_gop_review": 1203
+  },
+  "evaluation": {
+    "true_similar_pairs": 2,
+    "lsh_candidate_pairs": 2,
+    "minhash_similar_candidate_pairs": 2,
+    "candidate_precision": 1.0,
+    "candidate_recall": 1.0
+  },
+  "pairs": [
+    {
+      "left": "01_national_result",
+      "right": "02_national_result_revision",
+      "exact_jaccard": 0.9040852575488455,
+      "minhash_estimate": 0.9083333333333333,
+      "lsh_candidate": true
+    },
+    {
+      "left": "01_national_result",
+      "right": "03_house_leadership",
+      "exact_jaccard": 0.038922155688622756,
+      "minhash_estimate": 0.08333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "01_national_result",
+      "right": "04_house_leadership_revision",
+      "exact_jaccard": 0.039598997493734335,
+      "minhash_estimate": 0.08333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "01_national_result",
+      "right": "05_redistricting",
+      "exact_jaccard": 0.037900874635568516,
+      "minhash_estimate": 0.058333333333333334,
+      "lsh_candidate": false
+    },
+    {
+      "left": "01_national_result",
+      "right": "06_senate_fallout",
+      "exact_jaccard": 0.03008595988538682,
+      "minhash_estimate": 0.041666666666666664,
+      "lsh_candidate": false
+    },
+    {
+      "left": "01_national_result",
+      "right": "07_voter_issues",
+      "exact_jaccard": 0.04831833254381809,
+      "minhash_estimate": 0.041666666666666664,
+      "lsh_candidate": false
+    },
+    {
+      "left": "01_national_result",
+      "right": "08_unexpected_house_seats",
+      "exact_jaccard": 0.012897282358360202,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "01_national_result",
+      "right": "09_georgia_state_house",
+      "exact_jaccard": 0.03325301204819277,
+      "minhash_estimate": 0.058333333333333334,
+      "lsh_candidate": false
+    },
+    {
+      "left": "01_national_result",
+      "right": "10_gop_review",
+      "exact_jaccard": 0.029959146618247844,
+      "minhash_estimate": 0.058333333333333334,
+      "lsh_candidate": false
+    },
+    {
+      "left": "02_national_result_revision",
+      "right": "03_house_leadership",
+      "exact_jaccard": 0.039205955334987594,
+      "minhash_estimate": 0.06666666666666667,
+      "lsh_candidate": false
+    },
+    {
+      "left": "02_national_result_revision",
+      "right": "04_house_leadership_revision",
+      "exact_jaccard": 0.03988035892323031,
+      "minhash_estimate": 0.06666666666666667,
+      "lsh_candidate": false
+    },
+    {
+      "left": "02_national_result_revision",
+      "right": "05_redistricting",
+      "exact_jaccard": 0.03768115942028986,
+      "minhash_estimate": 0.058333333333333334,
+      "lsh_candidate": false
+    },
+    {
+      "left": "02_national_result_revision",
+      "right": "06_senate_fallout",
+      "exact_jaccard": 0.029425723777883245,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "02_national_result_revision",
+      "right": "07_voter_issues",
+      "exact_jaccard": 0.048045219029674985,
+      "minhash_estimate": 0.041666666666666664,
+      "lsh_candidate": false
+    },
+    {
+      "left": "02_national_result_revision",
+      "right": "08_unexpected_house_seats",
+      "exact_jaccard": 0.011899313501144164,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "02_national_result_revision",
+      "right": "09_georgia_state_house",
+      "exact_jaccard": 0.03306181121226641,
+      "minhash_estimate": 0.058333333333333334,
+      "lsh_candidate": false
+    },
+    {
+      "left": "02_national_result_revision",
+      "right": "10_gop_review",
+      "exact_jaccard": 0.029796839729119638,
+      "minhash_estimate": 0.058333333333333334,
+      "lsh_candidate": false
+    },
+    {
+      "left": "03_house_leadership",
+      "right": "04_house_leadership_revision",
+      "exact_jaccard": 0.909433962264151,
+      "minhash_estimate": 0.9083333333333333,
+      "lsh_candidate": true
+    },
+    {
+      "left": "03_house_leadership",
+      "right": "05_redistricting",
+      "exact_jaccard": 0.0265748031496063,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "03_house_leadership",
+      "right": "06_senate_fallout",
+      "exact_jaccard": 0.03284313725490196,
+      "minhash_estimate": 0.058333333333333334,
+      "lsh_candidate": false
+    },
+    {
+      "left": "03_house_leadership",
+      "right": "07_voter_issues",
+      "exact_jaccard": 0.0222117202268431,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "03_house_leadership",
+      "right": "08_unexpected_house_seats",
+      "exact_jaccard": 0.027246653919694074,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "03_house_leadership",
+      "right": "09_georgia_state_house",
+      "exact_jaccard": 0.01798736023334954,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "03_house_leadership",
+      "right": "10_gop_review",
+      "exact_jaccard": 0.0344988344988345,
+      "minhash_estimate": 0.075,
+      "lsh_candidate": false
+    },
+    {
+      "left": "04_house_leadership_revision",
+      "right": "05_redistricting",
+      "exact_jaccard": 0.0266798418972332,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "04_house_leadership_revision",
+      "right": "06_senate_fallout",
+      "exact_jaccard": 0.03297244094488189,
+      "minhash_estimate": 0.058333333333333334,
+      "lsh_candidate": false
+    },
+    {
+      "left": "04_house_leadership_revision",
+      "right": "07_voter_issues",
+      "exact_jaccard": 0.022296015180265655,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "04_house_leadership_revision",
+      "right": "08_unexpected_house_seats",
+      "exact_jaccard": 0.027351247600767754,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "04_house_leadership_revision",
+      "right": "09_georgia_state_house",
+      "exact_jaccard": 0.0175609756097561,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "04_house_leadership_revision",
+      "right": "10_gop_review",
+      "exact_jaccard": 0.03462798315395414,
+      "minhash_estimate": 0.075,
+      "lsh_candidate": false
+    },
+    {
+      "left": "05_redistricting",
+      "right": "06_senate_fallout",
+      "exact_jaccard": 0.013602251407129456,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "05_redistricting",
+      "right": "07_voter_issues",
+      "exact_jaccard": 0.03549743110695937,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "05_redistricting",
+      "right": "08_unexpected_house_seats",
+      "exact_jaccard": 0.023223409196470042,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "05_redistricting",
+      "right": "09_georgia_state_house",
+      "exact_jaccard": 0.030710172744721688,
+      "minhash_estimate": 0.041666666666666664,
+      "lsh_candidate": false
+    },
+    {
+      "left": "05_redistricting",
+      "right": "10_gop_review",
+      "exact_jaccard": 0.02572202166064982,
+      "minhash_estimate": 0.041666666666666664,
+      "lsh_candidate": false
+    },
+    {
+      "left": "06_senate_fallout",
+      "right": "07_voter_issues",
+      "exact_jaccard": 0.016810540663334848,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "06_senate_fallout",
+      "right": "08_unexpected_house_seats",
+      "exact_jaccard": 0.009532455742169769,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "06_senate_fallout",
+      "right": "09_georgia_state_house",
+      "exact_jaccard": 0.020705882352941178,
+      "minhash_estimate": 0.041666666666666664,
+      "lsh_candidate": false
+    },
+    {
+      "left": "06_senate_fallout",
+      "right": "10_gop_review",
+      "exact_jaccard": 0.03147482014388489,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "07_voter_issues",
+      "right": "08_unexpected_house_seats",
+      "exact_jaccard": 0.014686248331108143,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "07_voter_issues",
+      "right": "09_georgia_state_house",
+      "exact_jaccard": 0.022988505747126436,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "07_voter_issues",
+      "right": "10_gop_review",
+      "exact_jaccard": 0.021739130434782608,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "08_unexpected_house_seats",
+      "right": "09_georgia_state_house",
+      "exact_jaccard": 0.015617822691777675,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "08_unexpected_house_seats",
+      "right": "10_gop_review",
+      "exact_jaccard": 0.02053298383573613,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "09_georgia_state_house",
+      "right": "10_gop_review",
+      "exact_jaccard": 0.015131286159323543,
+      "minhash_estimate": 0.041666666666666664,
+      "lsh_candidate": false
+    }
+  ]
+}
