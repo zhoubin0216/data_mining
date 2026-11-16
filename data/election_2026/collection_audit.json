@@ -1,0 +1,694 @@
+[
+  {
+    "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+    "fetched_at_utc": "2026-11-16T16:14:20.520755+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 99,
+    "rejected": {
+      "under_80_words": 74,
+      "not_election_related": 5
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+    "fetched_at_utc": "2026-11-16T16:14:24.051316+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 41,
+    "rejected": {
+      "under_80_words": 68,
+      "duplicate_body": 7,
+      "outside_event_dates": 1
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
+    "fetched_at_utc": "2026-11-16T16:14:26.242746+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 27,
+    "rejected": {
+      "duplicate_body": 8,
+      "under_80_words": 43
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/news/republican-losses-roil-gop-midterms-vance-cruz-desantis/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/republican-losses-roil-gop-midterms-vance-cruz-desantis/",
+    "fetched_at_utc": "2026-11-16T16:14:28.387005+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/leading-dem-on-midterms-aftermath-were-still-in-the-fight-of-our-lives/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/leading-dem-on-midterms-aftermath-were-still-in-the-fight-of-our-lives/",
+    "fetched_at_utc": "2026-11-16T16:14:29.968558+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.theguardian.com/us-news/2026/nov/04/democrats-house-midterm-elections-results",
+    "http_status": "200",
+    "final_url": "https://www.theguardian.com/us-news/2026/nov/04/democrats-house-midterm-elections-results",
+    "fetched_at_utc": "2026-11-16T16:14:30.601840+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.theguardian.com/us-news/2026/nov/03/midterm-voters-republican-democrats-trump-second-term",
+    "http_status": "200",
+    "final_url": "https://www.theguardian.com/us-news/2026/nov/03/midterm-voters-republican-democrats-trump-second-term",
+    "fetched_at_utc": "2026-11-16T16:14:31.479699+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://theprint.in/world/democrats-seize-congress-in-sweeping-midterm-repudiation-of-trump/3090089/",
+    "http_status": "200",
+    "final_url": "https://theprint.in/world/democrats-seize-congress-in-sweeping-midterm-repudiation-of-trump/3090089/",
+    "fetched_at_utc": "2026-11-16T16:14:32.135814+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "access_challenge": 1
+    }
+  },
+  {
+    "url": "https://theprint.in/world/democrats-flex-congressional-majorities-as-trump-accepts-electoral-losses/3090972/",
+    "http_status": "200",
+    "final_url": "https://theprint.in/world/democrats-flex-congressional-majorities-as-trump-accepts-electoral-losses/3090972/",
+    "fetched_at_utc": "2026-11-16T16:14:32.761613+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "access_challenge": 1
+    }
+  },
+  {
+    "url": "https://www.investing.com/news/politics-news/how-democrats-won-their-blowout-midterm-victory-5009828",
+    "http_status": "403",
+    "final_url": "https://www.investing.com/news/politics-news/how-democrats-won-their-blowout-midterm-victory-5009828",
+    "fetched_at_utc": "2026-11-16T16:14:33.224595+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
+    "http_status": "403",
+    "final_url": "https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
+    "fetched_at_utc": "2026-11-16T16:14:33.693379+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {}
+  },
+  {
+    "url": "https://rollcall.com/2026/11/03/key-midterm-election-results/",
+    "http_status": "200",
+    "final_url": "https://rollcall.com/2026/11/03/key-midterm-election-results/",
+    "fetched_at_utc": "2026-11-16T16:14:35.520880+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.ap.org/news-highlights/elections/2026/trump-backed-republican-redistricting-sought-a-midterm-edge-it-didnt-work/",
+    "http_status": "200",
+    "final_url": "https://www.ap.org/news-highlights/elections/2026/trump-backed-republican-redistricting-sought-a-midterm-edge-it-didnt-work/",
+    "fetched_at_utc": "2026-11-16T16:14:37.088795+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/2026-midterm-election-results-where-democrats-won/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/2026-midterm-election-results-where-democrats-won/",
+    "fetched_at_utc": "2026-11-16T16:14:38.775559+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/democrats-win-house-majority/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/democrats-win-house-majority/",
+    "fetched_at_utc": "2026-11-16T16:14:39.623101+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/senate-control-democrats-republicans-2026-midterm-elections/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/senate-control-democrats-republicans-2026-midterm-elections/",
+    "fetched_at_utc": "2026-11-16T16:14:41.494376+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/texas-2026-senate-james-talarico-ken-paxton/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/texas-2026-senate-james-talarico-ken-paxton/",
+    "fetched_at_utc": "2026-11-16T16:14:43.659149+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/kansas-2026-senate-hamilton-marshall/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/kansas-2026-senate-hamilton-marshall/",
+    "fetched_at_utc": "2026-11-16T16:14:45.878589+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/south-carolina-2026-senate-annie-andrews-darline-graham/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/south-carolina-2026-senate-annie-andrews-darline-graham/",
+    "fetched_at_utc": "2026-11-16T16:14:48.512428+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/ohio-2026-senate-husted-brown/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/ohio-2026-senate-husted-brown/",
+    "fetched_at_utc": "2026-11-16T16:14:49.815885+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/iowa-2026-senate-hinson-turek/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/iowa-2026-senate-hinson-turek/",
+    "fetched_at_utc": "2026-11-16T16:14:52.330769+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/north-carolina-2026-senate-cooper-whatley/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/north-carolina-2026-senate-cooper-whatley/",
+    "fetched_at_utc": "2026-11-16T16:14:54.729030+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/maine-2026-senate-collins-jackson/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/maine-2026-senate-collins-jackson/",
+    "fetched_at_utc": "2026-11-16T16:14:57.168506+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/trump-hegseth-midterm-election-losses/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/trump-hegseth-midterm-election-losses/",
+    "fetched_at_utc": "2026-11-16T16:14:57.863659+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/trump-2026-midterms-republicans-white-house-ballroom/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/trump-2026-midterms-republicans-white-house-ballroom/",
+    "fetched_at_utc": "2026-11-16T16:15:00.934223+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/jd-vance-2026-midterms-iran/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/jd-vance-2026-midterms-iran/",
+    "fetched_at_utc": "2026-11-16T16:15:02.347613+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/house-districts-flipped-2026-midterm-elections/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/house-districts-flipped-2026-midterm-elections/",
+    "fetched_at_utc": "2026-11-16T16:15:03.199192+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/2026-elections-blue-wave-charts-data/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/2026-elections-blue-wave-charts-data/",
+    "fetched_at_utc": "2026-11-16T16:15:05.495730+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/minnesota-2026-senate-flanagan-tafoya/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/minnesota-2026-senate-flanagan-tafoya/",
+    "fetched_at_utc": "2026-11-16T16:15:07.277901+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/deb-haaland-peggy-flanagan-native-american-women-make-history-midterms/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/deb-haaland-peggy-flanagan-native-american-women-make-history-midterms/",
+    "fetched_at_utc": "2026-11-16T16:15:09.055375+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
+    "fetched_at_utc": "2026-11-16T16:15:09.819974+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/mississippi-senate-race-results-2026-midterms/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/mississippi-senate-race-results-2026-midterms/",
+    "fetched_at_utc": "2026-11-16T16:15:10.757136+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/democrats-2026-midterm-election-health-policy/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/democrats-2026-midterm-election-health-policy/",
+    "fetched_at_utc": "2026-11-16T16:15:12.693860+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/john-thune-midterms-trump-senate-majority/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/john-thune-midterms-trump-senate-majority/",
+    "fetched_at_utc": "2026-11-16T16:15:15.027413+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "outside_event_dates": 1
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/news/james-talarico-texas-senate-elon-musk/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/james-talarico-texas-senate-elon-musk/",
+    "fetched_at_utc": "2026-11-16T16:15:17.423948+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/melat-kiros-first-gen-z-woman-congress-colorado/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/melat-kiros-first-gen-z-woman-congress-colorado/",
+    "fetched_at_utc": "2026-11-16T16:15:18.629930+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/atlanta/news/georgia-governor-election-2026-results-rick-jackson-keisha-lance-bottoms/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/atlanta/news/georgia-governor-election-2026-results-rick-jackson-keisha-lance-bottoms/",
+    "fetched_at_utc": "2026-11-16T16:15:20.272521+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/texas-railroad-commissioner-democrat-rosenthal-bo-french/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/texas-railroad-commissioner-democrat-rosenthal-bo-french/",
+    "fetched_at_utc": "2026-11-16T16:15:22.490908+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/nebraska-2026-senate-ricketts-osborn/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/nebraska-2026-senate-ricketts-osborn/",
+    "fetched_at_utc": "2026-11-16T16:15:24.498284+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/michigan-2026-senate-el-sayed-rogers/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/michigan-2026-senate-el-sayed-rogers/",
+    "fetched_at_utc": "2026-11-16T16:15:27.682416+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/trump-congratulates-democrats-election-night-call/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/trump-congratulates-democrats-election-night-call/",
+    "fetched_at_utc": "2026-11-16T16:15:28.682809+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/miami/news/florida-governor-election-2026-results-byron-donalds-david-jolly/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/miami/news/florida-governor-election-2026-results-byron-donalds-david-jolly/",
+    "fetched_at_utc": "2026-11-16T16:15:30.553955+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/florida-2026-senate-moody-nixon/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/florida-2026-senate-moody-nixon/",
+    "fetched_at_utc": "2026-11-16T16:15:33.638502+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/new-hampshire-2026-senate-pappas-sununu/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/new-hampshire-2026-senate-pappas-sununu/",
+    "fetched_at_utc": "2026-11-16T16:15:36.347358+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/democrat-joe-manchin-registers-independent/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/democrat-joe-manchin-registers-independent/",
+    "fetched_at_utc": "2026-11-16T16:15:37.410562+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "outside_event_dates": 1
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/news/georgia-2026-senate-ossoff-collins/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/georgia-2026-senate-ossoff-collins/",
+    "fetched_at_utc": "2026-11-16T16:15:39.892184+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/poll-house-estimate-midterm-elections-2026/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/poll-house-estimate-midterm-elections-2026/",
+    "fetched_at_utc": "2026-11-16T16:15:42.354479+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "outside_event_dates": 1
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/news/trump-midterm-election-2026-interview/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/trump-midterm-election-2026-interview/",
+    "fetched_at_utc": "2026-11-16T16:15:43.056181+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/cbs-news-exit-polls-midterm-elections-2026/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/cbs-news-exit-polls-midterm-elections-2026/",
+    "fetched_at_utc": "2026-11-16T16:15:43.902525+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/alaska-senate-two-dan-sullivans-mary-peltola/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/alaska-senate-two-dan-sullivans-mary-peltola/",
+    "fetched_at_utc": "2026-11-16T16:15:45.656114+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "outside_event_dates": 1
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/news/doj-subpoenas-alaska-senate-probe-ballot-sullivan-peltola/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/doj-subpoenas-alaska-senate-probe-ballot-sullivan-peltola/",
+    "fetched_at_utc": "2026-11-16T16:15:47.614995+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "outside_event_dates": 1
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/news/alaska-ballot-investigation-democrats-marc-elias/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/alaska-ballot-investigation-democrats-marc-elias/",
+    "fetched_at_utc": "2026-11-16T16:15:49.796811+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/haley-stevens-mike-rogers-together-church-abdul-el-sayed-michigan-senate/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/haley-stevens-mike-rogers-together-church-abdul-el-sayed-michigan-senate/",
+    "fetched_at_utc": "2026-11-16T16:15:50.462538+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "outside_event_dates": 1
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/minnesota/news/minneapolis-has-set-an-early-voting-record-for-non-presidential-election/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/minnesota/news/minneapolis-has-set-an-early-voting-record-for-non-presidential-election/",
+    "fetched_at_utc": "2026-11-16T16:15:51.589719+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "outside_event_dates": 1
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/minnesota/news/minneapolis-high-early-voter-turnout-2026-midterms/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/minnesota/news/minneapolis-high-early-voter-turnout-2026-midterms/",
+    "fetched_at_utc": "2026-11-16T16:15:53.651580+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "outside_event_dates": 1
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/minnesota/news/minnesota-sets-midterm-early-voting-record-with-more-than-886000-ballots/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/minnesota/news/minnesota-sets-midterm-early-voting-record-with-more-than-886000-ballots/",
+    "fetched_at_utc": "2026-11-16T16:15:54.685185+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/detroit/news/michigan-secretary-state-jocelyn-benson-key-election-updates/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/detroit/news/michigan-secretary-state-jocelyn-benson-key-election-updates/",
+    "fetched_at_utc": "2026-11-16T16:15:56.685555+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "outside_event_dates": 1
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/detroit/news/rogers-el-sayed-final-push-election-day/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/detroit/news/rogers-el-sayed-final-push-election-day/",
+    "fetched_at_utc": "2026-11-16T16:15:58.624029+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "outside_event_dates": 1
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/detroit/news/michigan-election-day-voter-turnout-early-voting-2026/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/detroit/news/michigan-election-day-voter-turnout-early-voting-2026/",
+    "fetched_at_utc": "2026-11-16T16:16:00.617723+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/2026-midterm-elections-race-call-timing/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/2026-midterm-elections-race-call-timing/",
+    "fetched_at_utc": "2026-11-16T16:16:02.452947+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/newyork/news/new-york-new-jersey-poll-hours-midterms-2026/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/newyork/news/new-york-new-jersey-poll-hours-midterms-2026/",
+    "fetched_at_utc": "2026-11-16T16:16:04.384909+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 1,
+    "rejected": {}
+  },
+  {
+    "url": "https://www.cbsnews.com/news/abdul-el-sayed-haley-stevens-feud-michigan-senate/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/abdul-el-sayed-haley-stevens-feud-michigan-senate/",
+    "fetched_at_utc": "2026-11-16T16:16:06.560294+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "outside_event_dates": 1
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/news/peltola-she-knew-nothing-dan-sullivan-ballot-controversy-alaska-senate-race/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/peltola-she-knew-nothing-dan-sullivan-ballot-controversy-alaska-senate-race/",
+    "fetched_at_utc": "2026-11-16T16:16:09.335593+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "outside_event_dates": 1
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/news/ranked-choice-ballot-alaska-senate-dan-sullivan/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/ranked-choice-ballot-alaska-senate-dan-sullivan/",
+    "fetched_at_utc": "2026-11-16T16:16:10.076047+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "outside_event_dates": 1
+    }
+  },
+  {
+    "url": "https://www.cbsnews.com/news/texas-democrats-hispanic-vote-midterms-talarico-paxton-hinojosa-abbott/",
+    "http_status": "200",
+    "final_url": "https://www.cbsnews.com/news/texas-democrats-hispanic-vote-midterms-talarico-paxton-hinojosa-abbott/",
+    "fetched_at_utc": "2026-11-16T16:16:12.078758+00:00",
+    "curl_exit": 0,
+    "error": "",
+    "accepted": 0,
+    "rejected": {
+      "outside_event_dates": 1
+    }
+  }
+]

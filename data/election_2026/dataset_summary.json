@@ -1,0 +1,145 @@
+{
+  "event": "2026 US midterm election results and immediate aftermath",
+  "publication_window": [
+    "2026-11-03",
+    "2026-11-16"
+  ],
+  "seed": 20261116,
+  "collected_real_documents": 211,
+  "eligible_real_documents": 210,
+  "selected_real_documents": 200,
+  "synthetic_variants": 800,
+  "corpora": {
+    "real_20": {
+      "documents": 20,
+      "kinds": {
+        "real": 20
+      },
+      "families": 20,
+      "max_family_size": 1,
+      "document_types": {
+        "article": 20
+      },
+      "publishers": {
+        "rollcall.com": 1,
+        "www.ap.org": 1,
+        "www.cbsnews.com": 16,
+        "www.theguardian.com": 2
+      },
+      "words": {
+        "min": 186,
+        "median": 680.0,
+        "mean": 854.3,
+        "max": 1880
+      },
+      "shingles": {
+        "min": 798,
+        "median": 3609.5,
+        "mean": 4582.8,
+        "max": 10403
+      }
+    },
+    "scale_10": {
+      "documents": 10,
+      "kinds": {
+        "real": 2,
+        "synthetic_variant": 8
+      },
+      "families": 2,
+      "max_family_size": 5,
+      "document_types": {
+        "live_update": 2,
+        "synthetic_variant": 8
+      },
+      "publishers": {
+        "www.cbsnews.com": 10
+      },
+      "words": {
+        "min": 124,
+        "median": 224.0,
+        "mean": 247,
+        "max": 359
+      },
+      "shingles": {
+        "min": 729,
+        "median": 1201.0,
+        "mean": 1310.1,
+        "max": 1833
+      }
+    },
+    "scale_100": {
+      "documents": 100,
+      "kinds": {
+        "real": 20,
+        "synthetic_variant": 80
+      },
+      "families": 20,
+      "max_family_size": 5,
+      "document_types": {
+        "live_update": 16,
+        "synthetic_variant": 80,
+        "article": 4
+      },
+      "publishers": {
+        "www.cbsnews.com": 100
+      },
+      "words": {
+        "min": 109,
+        "median": 195.0,
+        "mean": 239,
+        "max": 498
+      },
+      "shingles": {
+        "min": 588,
+        "median": 1076.0,
+        "mean": 1307.07,
+        "max": 2797
+      }
+    },
+    "scale_1000": {
+      "documents": 1000,
+      "kinds": {
+        "real": 200,
+        "synthetic_variant": 800
+      },
+      "families": 200,
+      "max_family_size": 5,
+      "document_types": {
+        "live_update": 156,
+        "synthetic_variant": 800,
+        "article": 44
+      },
+      "publishers": {
+        "www.cbsnews.com": 980,
+        "www.ap.org": 5,
+        "www.theguardian.com": 10,
+        "rollcall.com": 5
+      },
+      "words": {
+        "min": 49,
+        "median": 131.5,
+        "mean": 243.225,
+        "max": 2192
+      },
+      "shingles": {
+        "min": 277,
+        "median": 735.5,
+        "mean": 1325.505,
+        "max": 11093
+      }
+    }
+  },
+  "within_family_pairs": 2000,
+  "within_family_positive_pairs": 871,
+  "within_family_negative_pairs": 1129,
+  "normalized_duplicates_in_scale_1000": 0,
+  "limitations": [
+    "Not 1000 independent news articles; 800 mechanical sentence-edit variants.",
+    "Live updates from the same page are separate news units, not independent publishers.",
+    "Scale sets are nested, not train/test splits; the builder performs no timing. See the separate scalability report for measurements.",
+    "Target edit similarities are advisory. Labels use measured Jaccard, never lineage alone.",
+    "Source-family size is fixed at five; real cross-family overlap can still create larger candidate buckets.",
+    "Publisher mix and length distributions vary across sizes; report provided statistics.",
+    "No redistribution license for downloaded media text is assumed; bodies are Git-ignored."
+  ]
+}

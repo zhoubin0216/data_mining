@@ -5,3 +5,12 @@ venv/
 .pytest_cache/
 .idea/workspace.xml
 
+# Corpus files and cloud-drive distribution archives are not stored in Git.
+exports/
+election_2026_1000.zip
+election_2026_1000.zip.sha256
+data/election_2026/raw/
+data/election_2026/originals/
+data/election_2026/corpora/
+data/election_2026/build_archive/
+

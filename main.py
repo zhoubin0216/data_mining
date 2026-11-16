@@ -18,7 +18,10 @@ from finding_similar_items.pipeline import analyze_documents  # noqa: E402
 
 
 # Experiment configuration
-CORPUS_DIRECTORY = PROJECT_ROOT / "data" / "news_corpus"
+# Import the downloaded dataset ZIP once using scripts/dataset_archive.py.
+# This real-only subset is restored from the same 1,000-document archive.
+# For a small controlled-variant experiment, replace "real_20" with "scale_10".
+CORPUS_DIRECTORY = PROJECT_ROOT / "data" / "election_2026" / "corpora" / "real_20"
 K_SHINGLE_LENGTH = 10
 MINHASH_SIGNATURE_LENGTH = 120
 SIMILARITY_THRESHOLD = 0.8

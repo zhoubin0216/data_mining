@@ -1,0 +1,2 @@
+# Only the optional corpus collector needs this dependency; algorithms use stdlib.
+beautifulsoup4==4.13.4
