@@ -1,0 +1,802 @@
+{
+  "status": "complete",
+  "started_utc": "2026-11-16T16:52:04.676973+00:00",
+  "configuration": {
+    "k": 10,
+    "signature_length": 120,
+    "seed": 42,
+    "threshold": 0.8,
+    "bands": 12,
+    "rows": 10,
+    "repeats": 3,
+    "sizes": [
+      10,
+      100,
+      1000
+    ]
+  },
+  "environment": {
+    "python": "3.9.6 (default, Dec  2 2025, 07:27:59) \n[Clang 17.0.0 (clang-1700.6.3.2)]",
+    "system": "Darwin",
+    "release": "24.6.0",
+    "machine": "x86_64",
+    "logical_cpus": 12,
+    "execution": "single process, sequential; no explicit parallelism"
+  },
+  "manifest_sha256": {
+    "10": "a8b615bb037b6dba75a8ba765634ea65a456c9bf5fde58e5620da78937b54986",
+    "100": "9862228729cc74fca1d046b2088887abdd0d25b5df41d3cb840883bff6a25b83",
+    "1000": "88d14534c9298f0c398d8c0bc7f6f497640b6fa696dd9795e0feae943f586798"
+  },
+  "code_sha256": {
+    "src/finding_similar_items/__init__.py": "5fe13b1183de0987da76906eb152fe117837531249ecad4064debc8a294677e2",
+    "src/finding_similar_items/__main__.py": "e014c07c71c5daede3fe8520fd696eaaed07cb19d77c01c14147273d0f9ed71b",
+    "src/finding_similar_items/cli.py": "15814d5692f70cdd2889b1b591100ee3a7027c06638d725d05143d4ac51a5449",
+    "src/finding_similar_items/io_utils.py": "95a155ae74904c574638379413379b924d650e97dc26fdeec71047c48e590498",
+    "src/finding_similar_items/lsh.py": "97927430deb3e2be85e31bb34e533c3bd701c62b7b12cfc2ebcbdb7a95c15a80",
+    "src/finding_similar_items/minhashing.py": "fd615c91f8fa617cc75a1511508009fb4b9f13dbafb10f105a3aff11e2c10479",
+    "src/finding_similar_items/pipeline.py": "d3c98e1f5cbd82a00c3e9adc035992faedd889fb82bf9a1e32c51455b268a204",
+    "src/finding_similar_items/shingling.py": "307f5a365517bf6102d493a78bcc1c50b4ade21bc8e6dc34382fa1448d9e7d2d"
+  },
+  "method": [
+    "perf_counter wall-clock seconds; one small warm-up excluded",
+    "each trial recomputes all representations; sequential increasing sizes per repeat",
+    "algorithm_total includes only setup, shingling, minhash, LSH and candidate signature comparison",
+    "file reading, ALL exact Jaccard work, ground-truth checks, quality metrics, writing and reporting are excluded",
+    "end_to_end and exact_baseline_end_to_end are retained as auxiliary diagnostics only",
+    "all candidates and all possible pairs receive separately timed exact Jaccard for offline evaluation"
+  ],
+  "trials": [
+    {
+      "size": 10,
+      "repeat": 1,
+      "seconds": {
+        "load": 0.0012474360000001017,
+        "setup": 0.00037971800000002887,
+        "shingling": 0.028390748000000077,
+        "minhash": 1.7034671700000001,
+        "lsh": 0.0002794720000003359,
+        "candidate_signature_comparison": 0.00018562700000002152,
+        "candidate_exact_verification": 0.0049029499999999615,
+        "algorithm_total": 1.7327027350000006,
+        "end_to_end": 1.7388531210000007,
+        "retrieval_with_precomputed_signatures": 0.005368049000000319,
+        "all_pairs_exact": 0.013050466999999788,
+        "exact_baseline_end_to_end": 0.042688650999999966
+      },
+      "quality": {
+        "all_possible_pairs": 45,
+        "true_similar_pairs": 9,
+        "lsh_candidates": 12,
+        "verified_similar_pairs": 9,
+        "minhash_threshold_pairs": 11,
+        "candidate_reduction": 0.7333333333333334,
+        "candidates": {
+          "tp": 9,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.75,
+          "recall": 1.0
+        },
+        "exact_verified": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "minhash_filtered": {
+          "tp": 9,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.8181818181818182,
+          "recall": 1.0
+        }
+      },
+      "total_words": 2470,
+      "total_shingles": 13101
+    },
+    {
+      "size": 100,
+      "repeat": 1,
+      "seconds": {
+        "load": 0.010137394999999216,
+        "setup": 0.0003982239999995585,
+        "shingling": 0.28182722800000004,
+        "minhash": 7.354959503000001,
+        "lsh": 0.008219009000001165,
+        "candidate_signature_comparison": 0.0014294320000001193,
+        "candidate_exact_verification": 0.039114103000001066,
+        "algorithm_total": 7.646833396000002,
+        "end_to_end": 7.696084894000002,
+        "retrieval_with_precomputed_signatures": 0.04876254400000235,
+        "all_pairs_exact": 1.220548622999999,
+        "exact_baseline_end_to_end": 1.5125132459999984
+      },
+      "quality": {
+        "all_possible_pairs": 4950,
+        "true_similar_pairs": 85,
+        "lsh_candidates": 105,
+        "verified_similar_pairs": 74,
+        "minhash_threshold_pairs": 83,
+        "candidate_reduction": 0.9787878787878788,
+        "candidates": {
+          "tp": 74,
+          "fp": 31,
+          "fn": 11,
+          "precision": 0.7047619047619048,
+          "recall": 0.8705882352941177
+        },
+        "exact_verified": {
+          "tp": 74,
+          "fp": 0,
+          "fn": 11,
+          "precision": 1.0,
+          "recall": 0.8705882352941177
+        },
+        "minhash_filtered": {
+          "tp": 70,
+          "fp": 13,
+          "fn": 15,
+          "precision": 0.8433734939759037,
+          "recall": 0.8235294117647058
+        }
+      },
+      "total_words": 23900,
+      "total_shingles": 130707
+    },
+    {
+      "size": 1000,
+      "repeat": 1,
+      "seconds": {
+        "load": 0.10287215399999994,
+        "setup": 0.00039046699999900625,
+        "shingling": 3.0297182050000018,
+        "minhash": 75.367239305,
+        "lsh": 0.09082650100000933,
+        "candidate_signature_comparison": 0.018504875000004972,
+        "candidate_exact_verification": 0.44566066199999455,
+        "algorithm_total": 78.50667935300001,
+        "end_to_end": 79.055212169,
+        "retrieval_with_precomputed_signatures": 0.5549920380000088,
+        "all_pairs_exact": 121.21668425000001,
+        "exact_baseline_end_to_end": 124.34927460900002
+      },
+      "quality": {
+        "all_possible_pairs": 499500,
+        "true_similar_pairs": 921,
+        "lsh_candidates": 1175,
+        "verified_similar_pairs": 876,
+        "minhash_threshold_pairs": 899,
+        "candidate_reduction": 0.9976476476476477,
+        "candidates": {
+          "tp": 876,
+          "fp": 299,
+          "fn": 45,
+          "precision": 0.745531914893617,
+          "recall": 0.9511400651465798
+        },
+        "exact_verified": {
+          "tp": 876,
+          "fp": 0,
+          "fn": 45,
+          "precision": 1.0,
+          "recall": 0.9511400651465798
+        },
+        "minhash_filtered": {
+          "tp": 817,
+          "fp": 82,
+          "fn": 104,
+          "precision": 0.9087875417130145,
+          "recall": 0.8870792616720955
+        }
+      },
+      "total_words": 243225,
+      "total_shingles": 1325505
+    },
+    {
+      "size": 10,
+      "repeat": 2,
+      "seconds": {
+        "load": 0.004924492999975882,
+        "setup": 0.000374277000020129,
+        "shingling": 0.028823037999984535,
+        "minhash": 0.7301850610000145,
+        "lsh": 0.00020560500001920445,
+        "candidate_signature_comparison": 0.0001736250000021755,
+        "candidate_exact_verification": 0.004513075000005529,
+        "algorithm_total": 0.7597616060000405,
+        "end_to_end": 0.7691991740000219,
+        "retrieval_with_precomputed_signatures": 0.004892305000026909,
+        "all_pairs_exact": 0.012785253000004104,
+        "exact_baseline_end_to_end": 0.04653278399996452
+      },
+      "quality": {
+        "all_possible_pairs": 45,
+        "true_similar_pairs": 9,
+        "lsh_candidates": 12,
+        "verified_similar_pairs": 9,
+        "minhash_threshold_pairs": 11,
+        "candidate_reduction": 0.7333333333333334,
+        "candidates": {
+          "tp": 9,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.75,
+          "recall": 1.0
+        },
+        "exact_verified": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "minhash_filtered": {
+          "tp": 9,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.8181818181818182,
+          "recall": 1.0
+        }
+      },
+      "total_words": 2470,
+      "total_shingles": 13101
+    },
+    {
+      "size": 100,
+      "repeat": 2,
+      "seconds": {
+        "load": 0.03518414700002381,
+        "setup": 0.0007243290000076286,
+        "shingling": 0.2766566500000067,
+        "minhash": 7.327677841999986,
+        "lsh": 0.00844524300001126,
+        "candidate_signature_comparison": 0.0014163870000061252,
+        "candidate_exact_verification": 0.03964754899999434,
+        "algorithm_total": 7.6149204510000175,
+        "end_to_end": 7.689752147000036,
+        "retrieval_with_precomputed_signatures": 0.04950917900001173,
+        "all_pairs_exact": 1.568364635999984,
+        "exact_baseline_end_to_end": 1.8802054330000146
+      },
+      "quality": {
+        "all_possible_pairs": 4950,
+        "true_similar_pairs": 85,
+        "lsh_candidates": 105,
+        "verified_similar_pairs": 74,
+        "minhash_threshold_pairs": 83,
+        "candidate_reduction": 0.9787878787878788,
+        "candidates": {
+          "tp": 74,
+          "fp": 31,
+          "fn": 11,
+          "precision": 0.7047619047619048,
+          "recall": 0.8705882352941177
+        },
+        "exact_verified": {
+          "tp": 74,
+          "fp": 0,
+          "fn": 11,
+          "precision": 1.0,
+          "recall": 0.8705882352941177
+        },
+        "minhash_filtered": {
+          "tp": 70,
+          "fp": 13,
+          "fn": 15,
+          "precision": 0.8433734939759037,
+          "recall": 0.8235294117647058
+        }
+      },
+      "total_words": 23900,
+      "total_shingles": 130707
+    },
+    {
+      "size": 1000,
+      "repeat": 2,
+      "seconds": {
+        "load": 0.3257310909999944,
+        "setup": 0.00041365500001688815,
+        "shingling": 2.9614051539999764,
+        "minhash": 74.84694625199998,
+        "lsh": 0.09759857100004865,
+        "candidate_signature_comparison": 0.019669690000000628,
+        "candidate_exact_verification": 0.4628978939999797,
+        "algorithm_total": 77.92603332200002,
+        "end_to_end": 78.714662307,
+        "retrieval_with_precomputed_signatures": 0.580166155000029,
+        "all_pairs_exact": 121.02852904999997,
+        "exact_baseline_end_to_end": 124.31566529499995
+      },
+      "quality": {
+        "all_possible_pairs": 499500,
+        "true_similar_pairs": 921,
+        "lsh_candidates": 1175,
+        "verified_similar_pairs": 876,
+        "minhash_threshold_pairs": 899,
+        "candidate_reduction": 0.9976476476476477,
+        "candidates": {
+          "tp": 876,
+          "fp": 299,
+          "fn": 45,
+          "precision": 0.745531914893617,
+          "recall": 0.9511400651465798
+        },
+        "exact_verified": {
+          "tp": 876,
+          "fp": 0,
+          "fn": 45,
+          "precision": 1.0,
+          "recall": 0.9511400651465798
+        },
+        "minhash_filtered": {
+          "tp": 817,
+          "fp": 82,
+          "fn": 104,
+          "precision": 0.9087875417130145,
+          "recall": 0.8870792616720955
+        }
+      },
+      "total_words": 243225,
+      "total_shingles": 1325505
+    },
+    {
+      "size": 10,
+      "repeat": 3,
+      "seconds": {
+        "load": 0.004587213000036172,
+        "setup": 0.0003833929999927932,
+        "shingling": 0.028287578000004032,
+        "minhash": 0.7460199530000295,
+        "lsh": 0.00019818599997734054,
+        "candidate_signature_comparison": 0.00016850899999099056,
+        "candidate_exact_verification": 0.004577304999997978,
+        "algorithm_total": 0.7750576189999947,
+        "end_to_end": 0.7842221370000289,
+        "retrieval_with_precomputed_signatures": 0.004943999999966309,
+        "all_pairs_exact": 0.012502890999996907,
+        "exact_baseline_end_to_end": 0.04537768200003711
+      },
+      "quality": {
+        "all_possible_pairs": 45,
+        "true_similar_pairs": 9,
+        "lsh_candidates": 12,
+        "verified_similar_pairs": 9,
+        "minhash_threshold_pairs": 11,
+        "candidate_reduction": 0.7333333333333334,
+        "candidates": {
+          "tp": 9,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.75,
+          "recall": 1.0
+        },
+        "exact_verified": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "minhash_filtered": {
+          "tp": 9,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.8181818181818182,
+          "recall": 1.0
+        }
+      },
+      "total_words": 2470,
+      "total_shingles": 13101
+    },
+    {
+      "size": 100,
+      "repeat": 3,
+      "seconds": {
+        "load": 0.04482244399997626,
+        "setup": 0.00038165699999126446,
+        "shingling": 0.2712868880000201,
+        "minhash": 7.557612648000031,
+        "lsh": 0.0077032930000200395,
+        "candidate_signature_comparison": 0.001398639000001367,
+        "candidate_exact_verification": 0.039320572999997694,
+        "algorithm_total": 7.838383125000064,
+        "end_to_end": 7.922526142000038,
+        "retrieval_with_precomputed_signatures": 0.0484225050000191,
+        "all_pairs_exact": 1.1790015959999778,
+        "exact_baseline_end_to_end": 1.4951109279999741
+      },
+      "quality": {
+        "all_possible_pairs": 4950,
+        "true_similar_pairs": 85,
+        "lsh_candidates": 105,
+        "verified_similar_pairs": 74,
+        "minhash_threshold_pairs": 83,
+        "candidate_reduction": 0.9787878787878788,
+        "candidates": {
+          "tp": 74,
+          "fp": 31,
+          "fn": 11,
+          "precision": 0.7047619047619048,
+          "recall": 0.8705882352941177
+        },
+        "exact_verified": {
+          "tp": 74,
+          "fp": 0,
+          "fn": 11,
+          "precision": 1.0,
+          "recall": 0.8705882352941177
+        },
+        "minhash_filtered": {
+          "tp": 70,
+          "fp": 13,
+          "fn": 15,
+          "precision": 0.8433734939759037,
+          "recall": 0.8235294117647058
+        }
+      },
+      "total_words": 23900,
+      "total_shingles": 130707
+    },
+    {
+      "size": 1000,
+      "repeat": 3,
+      "seconds": {
+        "load": 0.37018903499995304,
+        "setup": 0.000375515000030191,
+        "shingling": 2.880122400999994,
+        "minhash": 73.70430914999997,
+        "lsh": 0.08306422099997235,
+        "candidate_signature_comparison": 0.017080564000025333,
+        "candidate_exact_verification": 0.43068805900003326,
+        "algorithm_total": 76.684951851,
+        "end_to_end": 77.48582894499998,
+        "retrieval_with_precomputed_signatures": 0.530832844000031,
+        "all_pairs_exact": 121.30821615400004,
+        "exact_baseline_end_to_end": 124.55852758999998
+      },
+      "quality": {
+        "all_possible_pairs": 499500,
+        "true_similar_pairs": 921,
+        "lsh_candidates": 1175,
+        "verified_similar_pairs": 876,
+        "minhash_threshold_pairs": 899,
+        "candidate_reduction": 0.9976476476476477,
+        "candidates": {
+          "tp": 876,
+          "fp": 299,
+          "fn": 45,
+          "precision": 0.745531914893617,
+          "recall": 0.9511400651465798
+        },
+        "exact_verified": {
+          "tp": 876,
+          "fp": 0,
+          "fn": 45,
+          "precision": 1.0,
+          "recall": 0.9511400651465798
+        },
+        "minhash_filtered": {
+          "tp": 817,
+          "fp": 82,
+          "fn": 104,
+          "precision": 0.9087875417130145,
+          "recall": 0.8870792616720955
+        }
+      },
+      "total_words": 243225,
+      "total_shingles": 1325505
+    }
+  ],
+  "summary": {
+    "10": {
+      "repeats_completed": 3,
+      "quality": {
+        "all_possible_pairs": 45,
+        "true_similar_pairs": 9,
+        "lsh_candidates": 12,
+        "verified_similar_pairs": 9,
+        "minhash_threshold_pairs": 11,
+        "candidate_reduction": 0.7333333333333334,
+        "candidates": {
+          "tp": 9,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.75,
+          "recall": 1.0
+        },
+        "exact_verified": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "minhash_filtered": {
+          "tp": 9,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.8181818181818182,
+          "recall": 1.0
+        }
+      },
+      "total_words": 2470,
+      "total_shingles": 13101,
+      "seconds": {
+        "load": {
+          "median": 0.004587213000036172,
+          "min": 0.0012474360000001017,
+          "max": 0.004924492999975882
+        },
+        "setup": {
+          "median": 0.00037971800000002887,
+          "min": 0.000374277000020129,
+          "max": 0.0003833929999927932
+        },
+        "shingling": {
+          "median": 0.028390748000000077,
+          "min": 0.028287578000004032,
+          "max": 0.028823037999984535
+        },
+        "minhash": {
+          "median": 0.7460199530000295,
+          "min": 0.7301850610000145,
+          "max": 1.7034671700000001
+        },
+        "lsh": {
+          "median": 0.00020560500001920445,
+          "min": 0.00019818599997734054,
+          "max": 0.0002794720000003359
+        },
+        "candidate_signature_comparison": {
+          "median": 0.0001736250000021755,
+          "min": 0.00016850899999099056,
+          "max": 0.00018562700000002152
+        },
+        "candidate_exact_verification": {
+          "median": 0.004577304999997978,
+          "min": 0.004513075000005529,
+          "max": 0.0049029499999999615
+        },
+        "algorithm_total": {
+          "median": 0.7750576189999947,
+          "min": 0.7597616060000405,
+          "max": 1.7327027350000006
+        },
+        "end_to_end": {
+          "median": 0.7842221370000289,
+          "min": 0.7691991740000219,
+          "max": 1.7388531210000007
+        },
+        "retrieval_with_precomputed_signatures": {
+          "median": 0.004943999999966309,
+          "min": 0.004892305000026909,
+          "max": 0.005368049000000319
+        },
+        "all_pairs_exact": {
+          "median": 0.012785253000004104,
+          "min": 0.012502890999996907,
+          "max": 0.013050466999999788
+        },
+        "exact_baseline_end_to_end": {
+          "median": 0.04537768200003711,
+          "min": 0.042688650999999966,
+          "max": 0.04653278399996452
+        }
+      }
+    },
+    "100": {
+      "repeats_completed": 3,
+      "quality": {
+        "all_possible_pairs": 4950,
+        "true_similar_pairs": 85,
+        "lsh_candidates": 105,
+        "verified_similar_pairs": 74,
+        "minhash_threshold_pairs": 83,
+        "candidate_reduction": 0.9787878787878788,
+        "candidates": {
+          "tp": 74,
+          "fp": 31,
+          "fn": 11,
+          "precision": 0.7047619047619048,
+          "recall": 0.8705882352941177
+        },
+        "exact_verified": {
+          "tp": 74,
+          "fp": 0,
+          "fn": 11,
+          "precision": 1.0,
+          "recall": 0.8705882352941177
+        },
+        "minhash_filtered": {
+          "tp": 70,
+          "fp": 13,
+          "fn": 15,
+          "precision": 0.8433734939759037,
+          "recall": 0.8235294117647058
+        }
+      },
+      "total_words": 23900,
+      "total_shingles": 130707,
+      "seconds": {
+        "load": {
+          "median": 0.03518414700002381,
+          "min": 0.010137394999999216,
+          "max": 0.04482244399997626
+        },
+        "setup": {
+          "median": 0.0003982239999995585,
+          "min": 0.00038165699999126446,
+          "max": 0.0007243290000076286
+        },
+        "shingling": {
+          "median": 0.2766566500000067,
+          "min": 0.2712868880000201,
+          "max": 0.28182722800000004
+        },
+        "minhash": {
+          "median": 7.354959503000001,
+          "min": 7.327677841999986,
+          "max": 7.557612648000031
+        },
+        "lsh": {
+          "median": 0.008219009000001165,
+          "min": 0.0077032930000200395,
+          "max": 0.00844524300001126
+        },
+        "candidate_signature_comparison": {
+          "median": 0.0014163870000061252,
+          "min": 0.001398639000001367,
+          "max": 0.0014294320000001193
+        },
+        "candidate_exact_verification": {
+          "median": 0.039320572999997694,
+          "min": 0.039114103000001066,
+          "max": 0.03964754899999434
+        },
+        "algorithm_total": {
+          "median": 7.646833396000002,
+          "min": 7.6149204510000175,
+          "max": 7.838383125000064
+        },
+        "end_to_end": {
+          "median": 7.696084894000002,
+          "min": 7.689752147000036,
+          "max": 7.922526142000038
+        },
+        "retrieval_with_precomputed_signatures": {
+          "median": 0.04876254400000235,
+          "min": 0.0484225050000191,
+          "max": 0.04950917900001173
+        },
+        "all_pairs_exact": {
+          "median": 1.220548622999999,
+          "min": 1.1790015959999778,
+          "max": 1.568364635999984
+        },
+        "exact_baseline_end_to_end": {
+          "median": 1.5125132459999984,
+          "min": 1.4951109279999741,
+          "max": 1.8802054330000146
+        }
+      }
+    },
+    "1000": {
+      "repeats_completed": 3,
+      "quality": {
+        "all_possible_pairs": 499500,
+        "true_similar_pairs": 921,
+        "lsh_candidates": 1175,
+        "verified_similar_pairs": 876,
+        "minhash_threshold_pairs": 899,
+        "candidate_reduction": 0.9976476476476477,
+        "candidates": {
+          "tp": 876,
+          "fp": 299,
+          "fn": 45,
+          "precision": 0.745531914893617,
+          "recall": 0.9511400651465798
+        },
+        "exact_verified": {
+          "tp": 876,
+          "fp": 0,
+          "fn": 45,
+          "precision": 1.0,
+          "recall": 0.9511400651465798
+        },
+        "minhash_filtered": {
+          "tp": 817,
+          "fp": 82,
+          "fn": 104,
+          "precision": 0.9087875417130145,
+          "recall": 0.8870792616720955
+        }
+      },
+      "total_words": 243225,
+      "total_shingles": 1325505,
+      "seconds": {
+        "load": {
+          "median": 0.3257310909999944,
+          "min": 0.10287215399999994,
+          "max": 0.37018903499995304
+        },
+        "setup": {
+          "median": 0.00039046699999900625,
+          "min": 0.000375515000030191,
+          "max": 0.00041365500001688815
+        },
+        "shingling": {
+          "median": 2.9614051539999764,
+          "min": 2.880122400999994,
+          "max": 3.0297182050000018
+        },
+        "minhash": {
+          "median": 74.84694625199998,
+          "min": 73.70430914999997,
+          "max": 75.367239305
+        },
+        "lsh": {
+          "median": 0.09082650100000933,
+          "min": 0.08306422099997235,
+          "max": 0.09759857100004865
+        },
+        "candidate_signature_comparison": {
+          "median": 0.018504875000004972,
+          "min": 0.017080564000025333,
+          "max": 0.019669690000000628
+        },
+        "candidate_exact_verification": {
+          "median": 0.44566066199999455,
+          "min": 0.43068805900003326,
+          "max": 0.4628978939999797
+        },
+        "algorithm_total": {
+          "median": 77.92603332200002,
+          "min": 76.684951851,
+          "max": 78.50667935300001
+        },
+        "end_to_end": {
+          "median": 78.714662307,
+          "min": 77.48582894499998,
+          "max": 79.055212169
+        },
+        "retrieval_with_precomputed_signatures": {
+          "median": 0.5549920380000088,
+          "min": 0.530832844000031,
+          "max": 0.580166155000029
+        },
+        "all_pairs_exact": {
+          "median": 121.21668425000001,
+          "min": 121.02852904999997,
+          "max": 121.30821615400004
+        },
+        "exact_baseline_end_to_end": {
+          "median": 124.34927460900002,
+          "min": 124.31566529499995,
+          "max": 124.55852758999998
+        }
+      }
+    }
+  },
+  "finished_utc": "2026-11-16T17:02:36.445133+00:00",
+  "primary_timing_key": "algorithm_total",
+  "timing_scope": {
+    "included": [
+      "setup",
+      "shingling",
+      "minhash",
+      "lsh",
+      "candidate_signature_comparison"
+    ],
+    "excluded": [
+      "load",
+      "candidate_exact_verification",
+      "all_pairs_exact",
+      "metrics",
+      "serialization",
+      "reporting"
+    ],
+    "note": "Algorithm-only totals recomputed per trial from separately measured stages. Other timing fields are diagnostics, not the reported scalability time."
+  }
+}

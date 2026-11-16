@@ -1,0 +1,132 @@
+{
+  "true_pairs": [
+    {
+      "left": "real_3f26c410993a46",
+      "right": "real_3f26c410993a46_v1",
+      "jaccard": 0.9698848538529672,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_3f26c410993a46",
+      "right": "real_3f26c410993a46_v2",
+      "jaccard": 0.9035714285714286,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_3f26c410993a46",
+      "right": "real_3f26c410993a46_v3",
+      "jaccard": 0.8345323741007195,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_3f26c410993a46_v1",
+      "right": "real_3f26c410993a46_v2",
+      "jaccard": 0.8751099384344767,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_3f26c410993a46_v1",
+      "right": "real_3f26c410993a46_v3",
+      "jaccard": 0.8214285714285714,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_73d3869153ee39",
+      "right": "real_73d3869153ee39_v1",
+      "jaccard": 0.9684953829440521,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_73d3869153ee39",
+      "right": "real_73d3869153ee39_v2",
+      "jaccard": 0.9032778076303063,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_73d3869153ee39",
+      "right": "real_73d3869153ee39_v3",
+      "jaccard": 0.8061440677966102,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_73d3869153ee39_v1",
+      "right": "real_73d3869153ee39_v2",
+      "jaccard": 0.8726591760299626,
+      "lsh_candidate": true
+    }
+  ],
+  "candidate_pairs": [
+    {
+      "left": "real_3f26c410993a46",
+      "right": "real_3f26c410993a46_v1",
+      "jaccard": 0.9698848538529672,
+      "minhash_estimate": 0.9916666666666667
+    },
+    {
+      "left": "real_3f26c410993a46",
+      "right": "real_3f26c410993a46_v2",
+      "jaccard": 0.9035714285714286,
+      "minhash_estimate": 0.925
+    },
+    {
+      "left": "real_3f26c410993a46",
+      "right": "real_3f26c410993a46_v3",
+      "jaccard": 0.8345323741007195,
+      "minhash_estimate": 0.8333333333333334
+    },
+    {
+      "left": "real_3f26c410993a46_v1",
+      "right": "real_3f26c410993a46_v2",
+      "jaccard": 0.8751099384344767,
+      "minhash_estimate": 0.9166666666666666
+    },
+    {
+      "left": "real_3f26c410993a46_v1",
+      "right": "real_3f26c410993a46_v3",
+      "jaccard": 0.8214285714285714,
+      "minhash_estimate": 0.825
+    },
+    {
+      "left": "real_73d3869153ee39",
+      "right": "real_73d3869153ee39_v1",
+      "jaccard": 0.9684953829440521,
+      "minhash_estimate": 0.9916666666666667
+    },
+    {
+      "left": "real_73d3869153ee39",
+      "right": "real_73d3869153ee39_v2",
+      "jaccard": 0.9032778076303063,
+      "minhash_estimate": 0.9
+    },
+    {
+      "left": "real_73d3869153ee39",
+      "right": "real_73d3869153ee39_v3",
+      "jaccard": 0.8061440677966102,
+      "minhash_estimate": 0.8083333333333333
+    },
+    {
+      "left": "real_73d3869153ee39_v1",
+      "right": "real_73d3869153ee39_v2",
+      "jaccard": 0.8726591760299626,
+      "minhash_estimate": 0.8916666666666667
+    },
+    {
+      "left": "real_73d3869153ee39_v1",
+      "right": "real_73d3869153ee39_v3",
+      "jaccard": 0.7924427887174029,
+      "minhash_estimate": 0.8
+    },
+    {
+      "left": "real_73d3869153ee39_v2",
+      "right": "real_73d3869153ee39_v3",
+      "jaccard": 0.7839305103148752,
+      "minhash_estimate": 0.8
+    },
+    {
+      "left": "real_73d3869153ee39_v2",
+      "right": "real_73d3869153ee39_v4",
+      "jaccard": 0.6496149614961496,
+      "minhash_estimate": 0.6916666666666667
+    }
+  ]
+}
