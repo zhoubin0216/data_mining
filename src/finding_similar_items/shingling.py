@@ -14,6 +14,8 @@ class Shingling:
     Python's built-in ``hash`` because the latter changes between processes.
     """
 
+
+
     def __init__(self, k: int = 10) -> None:
         if k <= 0:
             raise ValueError("k must be positive")
