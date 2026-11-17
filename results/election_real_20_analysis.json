@@ -1,0 +1,1369 @@
+{
+  "configuration": {
+    "documents": 20,
+    "bands": 12,
+    "rows_per_band": 10,
+    "approximate_lsh_threshold": 0.7799771419043033
+  },
+  "shingle_counts": {
+    "real_14fad1df330a2e": 2797,
+    "real_1edd0f47806a98": 3528,
+    "real_5b30377facdf1e": 6859,
+    "real_5e0ed7f40e11b4": 1052,
+    "real_6164f8dabc3da2": 6359,
+    "real_6f27ae8de9b07d": 8731,
+    "real_7af6a29dda8181": 8482,
+    "real_7ee69eb188c176": 3110,
+    "real_915cb48dbcfdc2": 1697,
+    "real_94dfc2479d01fe": 7808,
+    "real_a06ce35bc12965": 3455,
+    "real_a104b4dd8961cb": 798,
+    "real_b504b7e58b1aa7": 7336,
+    "real_b55d3f48bca1df": 1461,
+    "real_bd6cec70e339bd": 4280,
+    "real_c897c4694869ce": 1675,
+    "real_e0f3bd8e8a7e60": 2235,
+    "real_ef8da09ceff7bc": 3691,
+    "real_f506e27fe05766": 5899,
+    "real_f7ac1e0a604f80": 10403
+  },
+  "evaluation": {
+    "true_similar_pairs": 0,
+    "lsh_candidate_pairs": 0,
+    "minhash_similar_candidate_pairs": 0,
+    "candidate_precision": 1.0,
+    "candidate_recall": 1.0
+  },
+  "pairs": [
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_1edd0f47806a98",
+      "exact_jaccard": 0.012,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_5b30377facdf1e",
+      "exact_jaccard": 0.02050306489114352,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_5e0ed7f40e11b4",
+      "exact_jaccard": 0.007855459544383346,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_6164f8dabc3da2",
+      "exact_jaccard": 0.00948180815876516,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_6f27ae8de9b07d",
+      "exact_jaccard": 0.02135199787365996,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_7af6a29dda8181",
+      "exact_jaccard": 0.01576008645533141,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_7ee69eb188c176",
+      "exact_jaccard": 0.015821152192605333,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_915cb48dbcfdc2",
+      "exact_jaccard": 0.010341726618705036,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_94dfc2479d01fe",
+      "exact_jaccard": 0.007505225156754703,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_a06ce35bc12965",
+      "exact_jaccard": 0.019569471624266144,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_a104b4dd8961cb",
+      "exact_jaccard": 0.003909522479754258,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_b504b7e58b1aa7",
+      "exact_jaccard": 0.02208997377446036,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_b55d3f48bca1df",
+      "exact_jaccard": 0.010201660735468564,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_bd6cec70e339bd",
+      "exact_jaccard": 0.012446351931330472,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_c897c4694869ce",
+      "exact_jaccard": 0.017288444040036398,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.007004202521512908,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.02205419029615627,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.010927691234596606,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_14fad1df330a2e",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.013980642187740052,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_5b30377facdf1e",
+      "exact_jaccard": 0.021136453008257963,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_5e0ed7f40e11b4",
+      "exact_jaccard": 0.014396456256921373,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_6164f8dabc3da2",
+      "exact_jaccard": 0.013219922115187539,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_6f27ae8de9b07d",
+      "exact_jaccard": 0.025600267715217936,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_7af6a29dda8181",
+      "exact_jaccard": 0.026934587430525864,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_7ee69eb188c176",
+      "exact_jaccard": 0.016072248584111434,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_915cb48dbcfdc2",
+      "exact_jaccard": 0.0334256329113924,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_94dfc2479d01fe",
+      "exact_jaccard": 0.01722900215362527,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_a06ce35bc12965",
+      "exact_jaccard": 0.017040489367899796,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_a104b4dd8961cb",
+      "exact_jaccard": 0.003246753246753247,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_b504b7e58b1aa7",
+      "exact_jaccard": 0.020093896713615025,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_b55d3f48bca1df",
+      "exact_jaccard": 0.01650366748166259,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_bd6cec70e339bd",
+      "exact_jaccard": 0.024134312696747113,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_c897c4694869ce",
+      "exact_jaccard": 0.017204301075268817,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.026357969723953694,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.018481941309255078,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.01376492095924293,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_1edd0f47806a98",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.015379008746355685,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_5e0ed7f40e11b4",
+      "exact_jaccard": 0.013061851709565886,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_6164f8dabc3da2",
+      "exact_jaccard": 0.022115682029075164,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_6f27ae8de9b07d",
+      "exact_jaccard": 0.04092942511851506,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_7af6a29dda8181",
+      "exact_jaccard": 0.0376758658008658,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_7ee69eb188c176",
+      "exact_jaccard": 0.01558679706601467,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_915cb48dbcfdc2",
+      "exact_jaccard": 0.025407478427612654,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_94dfc2479d01fe",
+      "exact_jaccard": 0.01179635761589404,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_a06ce35bc12965",
+      "exact_jaccard": 0.020884885677521527,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_a104b4dd8961cb",
+      "exact_jaccard": 0.0039333945194703025,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_b504b7e58b1aa7",
+      "exact_jaccard": 0.02832512315270936,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_b55d3f48bca1df",
+      "exact_jaccard": 0.013274875167458287,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_bd6cec70e339bd",
+      "exact_jaccard": 0.02108350902924191,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_c897c4694869ce",
+      "exact_jaccard": 0.01886341929321872,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.011455900344789233,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.02208874249176516,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.026387771520514882,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5b30377facdf1e",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.03402420031148916,
+      "minhash_estimate": 0.05,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_6164f8dabc3da2",
+      "exact_jaccard": 0.007339948348511621,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_6f27ae8de9b07d",
+      "exact_jaccard": 0.00845273683125451,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_7af6a29dda8181",
+      "exact_jaccard": 0.01285456283862743,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_7ee69eb188c176",
+      "exact_jaccard": 0.03147459727385378,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_915cb48dbcfdc2",
+      "exact_jaccard": 0.0420773313115997,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_94dfc2479d01fe",
+      "exact_jaccard": 0.010953902327704245,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_a06ce35bc12965",
+      "exact_jaccard": 0.008728737690241718,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_a104b4dd8961cb",
+      "exact_jaccard": 0.0005408328826392645,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_b504b7e58b1aa7",
+      "exact_jaccard": 0.007930785868781542,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_b55d3f48bca1df",
+      "exact_jaccard": 0.018646128901499796,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_bd6cec70e339bd",
+      "exact_jaccard": 0.015425633212721387,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_c897c4694869ce",
+      "exact_jaccard": 0.04243119266055046,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.026545908806995627,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.005938494167550371,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.004334633723450368,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_5e0ed7f40e11b4",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.005883386020372322,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6164f8dabc3da2",
+      "right": "real_6f27ae8de9b07d",
+      "exact_jaccard": 0.022565562106119128,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6164f8dabc3da2",
+      "right": "real_7af6a29dda8181",
+      "exact_jaccard": 0.02805486284289277,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6164f8dabc3da2",
+      "right": "real_7ee69eb188c176",
+      "exact_jaccard": 0.011105178857447945,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6164f8dabc3da2",
+      "right": "real_915cb48dbcfdc2",
+      "exact_jaccard": 0.013588324106693507,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6164f8dabc3da2",
+      "right": "real_94dfc2479d01fe",
+      "exact_jaccard": 0.021486769053284303,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6164f8dabc3da2",
+      "right": "real_a06ce35bc12965",
+      "exact_jaccard": 0.017522032141005704,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6164f8dabc3da2",
+      "right": "real_a104b4dd8961cb",
+      "exact_jaccard": 0.004068462401795735,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6164f8dabc3da2",
+      "right": "real_b504b7e58b1aa7",
+      "exact_jaccard": 0.022014925373134327,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6164f8dabc3da2",
+      "right": "real_b55d3f48bca1df",
+      "exact_jaccard": 0.016376397192617624,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6164f8dabc3da2",
+      "right": "real_bd6cec70e339bd",
+      "exact_jaccard": 0.014590883082204844,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6164f8dabc3da2",
+      "right": "real_c897c4694869ce",
+      "exact_jaccard": 0.00967701394998115,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6164f8dabc3da2",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.00963345864661654,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6164f8dabc3da2",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.018856447688564478,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6164f8dabc3da2",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.011970610088334848,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6164f8dabc3da2",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.016001939629045944,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6f27ae8de9b07d",
+      "right": "real_7af6a29dda8181",
+      "exact_jaccard": 0.05646596697968453,
+      "minhash_estimate": 0.05,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6f27ae8de9b07d",
+      "right": "real_7ee69eb188c176",
+      "exact_jaccard": 0.02236228630633742,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6f27ae8de9b07d",
+      "right": "real_915cb48dbcfdc2",
+      "exact_jaccard": 0.01607717041800643,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6f27ae8de9b07d",
+      "right": "real_94dfc2479d01fe",
+      "exact_jaccard": 0.020736900573967782,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6f27ae8de9b07d",
+      "right": "real_a06ce35bc12965",
+      "exact_jaccard": 0.03306205493387589,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6f27ae8de9b07d",
+      "right": "real_a104b4dd8961cb",
+      "exact_jaccard": 0.0019978969505783386,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6f27ae8de9b07d",
+      "right": "real_b504b7e58b1aa7",
+      "exact_jaccard": 0.03491143317230274,
+      "minhash_estimate": 0.05,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6f27ae8de9b07d",
+      "right": "real_b55d3f48bca1df",
+      "exact_jaccard": 0.015746462029101058,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6f27ae8de9b07d",
+      "right": "real_bd6cec70e339bd",
+      "exact_jaccard": 0.02311866006133522,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6f27ae8de9b07d",
+      "right": "real_c897c4694869ce",
+      "exact_jaccard": 0.01591330664844284,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6f27ae8de9b07d",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.014431082331174839,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6f27ae8de9b07d",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.022639334815180705,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6f27ae8de9b07d",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.016395720439071837,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_6f27ae8de9b07d",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.028986286636192526,
+      "minhash_estimate": 0.05,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7af6a29dda8181",
+      "right": "real_7ee69eb188c176",
+      "exact_jaccard": 0.024209224244566178,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7af6a29dda8181",
+      "right": "real_915cb48dbcfdc2",
+      "exact_jaccard": 0.021475163070747618,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7af6a29dda8181",
+      "right": "real_94dfc2479d01fe",
+      "exact_jaccard": 0.024979550745611274,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7af6a29dda8181",
+      "right": "real_a06ce35bc12965",
+      "exact_jaccard": 0.024723152201905744,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7af6a29dda8181",
+      "right": "real_a104b4dd8961cb",
+      "exact_jaccard": 0.002917972549443424,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7af6a29dda8181",
+      "right": "real_b504b7e58b1aa7",
+      "exact_jaccard": 0.028344818619165258,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7af6a29dda8181",
+      "right": "real_b55d3f48bca1df",
+      "exact_jaccard": 0.017186700767263426,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7af6a29dda8181",
+      "right": "real_bd6cec70e339bd",
+      "exact_jaccard": 0.024319768841801107,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7af6a29dda8181",
+      "right": "real_c897c4694869ce",
+      "exact_jaccard": 0.017633503656948202,
+      "minhash_estimate": 0.041666666666666664,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7af6a29dda8181",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.01795212765957447,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7af6a29dda8181",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.024749558043606363,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7af6a29dda8181",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.019495250248121366,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7af6a29dda8181",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.030222028258141947,
+      "minhash_estimate": 0.075,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7ee69eb188c176",
+      "right": "real_915cb48dbcfdc2",
+      "exact_jaccard": 0.02102803738317757,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7ee69eb188c176",
+      "right": "real_94dfc2479d01fe",
+      "exact_jaccard": 0.011862835959221501,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7ee69eb188c176",
+      "right": "real_a06ce35bc12965",
+      "exact_jaccard": 0.015939337666357165,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7ee69eb188c176",
+      "right": "real_a104b4dd8961cb",
+      "exact_jaccard": 0.0041109969167523125,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7ee69eb188c176",
+      "right": "real_b504b7e58b1aa7",
+      "exact_jaccard": 0.01942031814189519,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7ee69eb188c176",
+      "right": "real_b55d3f48bca1df",
+      "exact_jaccard": 0.016681494661921707,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7ee69eb188c176",
+      "right": "real_bd6cec70e339bd",
+      "exact_jaccard": 0.01832713242386661,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7ee69eb188c176",
+      "right": "real_c897c4694869ce",
+      "exact_jaccard": 0.02704443013522215,
+      "minhash_estimate": 0.041666666666666664,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7ee69eb188c176",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.023358223243346736,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7ee69eb188c176",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.015832710978342046,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7ee69eb188c176",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.017506211881635418,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_7ee69eb188c176",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.014184929450615431,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_915cb48dbcfdc2",
+      "right": "real_94dfc2479d01fe",
+      "exact_jaccard": 0.008916250928776138,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_915cb48dbcfdc2",
+      "right": "real_a06ce35bc12965",
+      "exact_jaccard": 0.01838307966001186,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_915cb48dbcfdc2",
+      "right": "real_a104b4dd8961cb",
+      "exact_jaccard": 0.003216726980297547,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_915cb48dbcfdc2",
+      "right": "real_b504b7e58b1aa7",
+      "exact_jaccard": 0.01722972972972973,
+      "minhash_estimate": 0.041666666666666664,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_915cb48dbcfdc2",
+      "right": "real_b55d3f48bca1df",
+      "exact_jaccard": 0.023331173039533377,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_915cb48dbcfdc2",
+      "right": "real_bd6cec70e339bd",
+      "exact_jaccard": 0.032118805042307026,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_915cb48dbcfdc2",
+      "right": "real_c897c4694869ce",
+      "exact_jaccard": 0.041062056190182154,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_915cb48dbcfdc2",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.014447884416924664,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_915cb48dbcfdc2",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.019489120151371806,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_915cb48dbcfdc2",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.008497079129049389,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_915cb48dbcfdc2",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.013824884792626729,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_94dfc2479d01fe",
+      "right": "real_a06ce35bc12965",
+      "exact_jaccard": 0.006703611011798356,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_94dfc2479d01fe",
+      "right": "real_a104b4dd8961cb",
+      "exact_jaccard": 0.0009304489416143289,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_94dfc2479d01fe",
+      "right": "real_b504b7e58b1aa7",
+      "exact_jaccard": 0.01155567430365373,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_94dfc2479d01fe",
+      "right": "real_b55d3f48bca1df",
+      "exact_jaccard": 0.008267159795496573,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_94dfc2479d01fe",
+      "right": "real_bd6cec70e339bd",
+      "exact_jaccard": 0.012395309882747068,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_94dfc2479d01fe",
+      "right": "real_c897c4694869ce",
+      "exact_jaccard": 0.010226909555768616,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_94dfc2479d01fe",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.00772626931567329,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_94dfc2479d01fe",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.00850727942466234,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_94dfc2479d01fe",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.006018348623853211,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_94dfc2479d01fe",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.011609821130985446,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a06ce35bc12965",
+      "right": "real_a104b4dd8961cb",
+      "exact_jaccard": 0.0097340930674264,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a06ce35bc12965",
+      "right": "real_b504b7e58b1aa7",
+      "exact_jaccard": 0.05042344008566144,
+      "minhash_estimate": 0.06666666666666667,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a06ce35bc12965",
+      "right": "real_b55d3f48bca1df",
+      "exact_jaccard": 0.02780681580597951,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a06ce35bc12965",
+      "right": "real_bd6cec70e339bd",
+      "exact_jaccard": 0.016692954784437435,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a06ce35bc12965",
+      "right": "real_c897c4694869ce",
+      "exact_jaccard": 0.017857142857142856,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a06ce35bc12965",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.008507621410847217,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a06ce35bc12965",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.021294840645991138,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a06ce35bc12965",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.015084102007596311,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a06ce35bc12965",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.018596104373392135,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a104b4dd8961cb",
+      "right": "real_b504b7e58b1aa7",
+      "exact_jaccard": 0.0034542314335060447,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a104b4dd8961cb",
+      "right": "real_b55d3f48bca1df",
+      "exact_jaccard": 0.012550425818018825,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a104b4dd8961cb",
+      "right": "real_bd6cec70e339bd",
+      "exact_jaccard": 0.00335901995653033,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a104b4dd8961cb",
+      "right": "real_c897c4694869ce",
+      "exact_jaccard": 0.0008093889113719142,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a104b4dd8961cb",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.0,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a104b4dd8961cb",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.005825677795205019,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a104b4dd8961cb",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.004951980792316926,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_a104b4dd8961cb",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.0025957751521661298,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_b504b7e58b1aa7",
+      "right": "real_b55d3f48bca1df",
+      "exact_jaccard": 0.012080073630924988,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_b504b7e58b1aa7",
+      "right": "real_bd6cec70e339bd",
+      "exact_jaccard": 0.020469120618466133,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_b504b7e58b1aa7",
+      "right": "real_c897c4694869ce",
+      "exact_jaccard": 0.01566726780883679,
+      "minhash_estimate": 0.05,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_b504b7e58b1aa7",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.016245487364620937,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_b504b7e58b1aa7",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.02538590291984378,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_b504b7e58b1aa7",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.01745079950799508,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_b504b7e58b1aa7",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.02118473317598296,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_b55d3f48bca1df",
+      "right": "real_bd6cec70e339bd",
+      "exact_jaccard": 0.020803698435277383,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_b55d3f48bca1df",
+      "right": "real_c897c4694869ce",
+      "exact_jaccard": 0.02349869451697128,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_b55d3f48bca1df",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.01066447908121411,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_b55d3f48bca1df",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.01838307966001186,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_b55d3f48bca1df",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.009740705172177254,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_b55d3f48bca1df",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.010217983651226158,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_bd6cec70e339bd",
+      "right": "real_c897c4694869ce",
+      "exact_jaccard": 0.026901189860320744,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_bd6cec70e339bd",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.01717408274785324,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_bd6cec70e339bd",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.014638492871690428,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_bd6cec70e339bd",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.011426868044515103,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_bd6cec70e339bd",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.01711000277085065,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_c897c4694869ce",
+      "right": "real_e0f3bd8e8a7e60",
+      "exact_jaccard": 0.032479535252178504,
+      "minhash_estimate": 0.041666666666666664,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_c897c4694869ce",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.012070916635231988,
+      "minhash_estimate": 0.041666666666666664,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_c897c4694869ce",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.00624418759133785,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_c897c4694869ce",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.009359852916597024,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_e0f3bd8e8a7e60",
+      "right": "real_ef8da09ceff7bc",
+      "exact_jaccard": 0.011780775140857094,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_e0f3bd8e8a7e60",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.006683168316831683,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_e0f3bd8e8a7e60",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.009021956087824351,
+      "minhash_estimate": 0.016666666666666666,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_ef8da09ceff7bc",
+      "right": "real_f506e27fe05766",
+      "exact_jaccard": 0.012671594508975714,
+      "minhash_estimate": 0.008333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_ef8da09ceff7bc",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.01849978320566556,
+      "minhash_estimate": 0.03333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_f506e27fe05766",
+      "right": "real_f7ac1e0a604f80",
+      "exact_jaccard": 0.02034174125305126,
+      "minhash_estimate": 0.025,
+      "lsh_candidate": false
+    }
+  ]
+}

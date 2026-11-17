@@ -1,5 +1,13 @@
 # Finding Similar News Reports with Shingling, MinHash, and LSH
 
+> Historical report: the results below refer to the original ten generated
+> demonstration texts. On November 16, 2026, a separate real-news dataset and
+> synthetic scale corpora were added in `data/election_2026/`. See that dataset's
+> README and summary for the current provenance and composition. These older
+> results must not be attributed to the new corpus.
+> The completed 10/100/1,000-document timing evaluation is in
+> [SCALABILITY_REPORT.md](SCALABILITY_REPORT.md).
+
 ## 1. Objective
 
 This project implements the document-similarity pipeline described in *Finding

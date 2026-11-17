@@ -1,0 +1,344 @@
+{
+  "configuration": {
+    "documents": 10,
+    "bands": 12,
+    "rows_per_band": 10,
+    "approximate_lsh_threshold": 0.7799771419043033
+  },
+  "shingle_counts": {
+    "real_3f26c410993a46": 1112,
+    "real_3f26c410993a46_v1": 1112,
+    "real_3f26c410993a46_v2": 1020,
+    "real_3f26c410993a46_v3": 928,
+    "real_3f26c410993a46_v4": 729,
+    "real_73d3869153ee39": 1833,
+    "real_73d3869153ee39_v1": 1791,
+    "real_73d3869153ee39_v2": 1709,
+    "real_73d3869153ee39_v3": 1577,
+    "real_73d3869153ee39_v4": 1290
+  },
+  "evaluation": {
+    "true_similar_pairs": 9,
+    "lsh_candidate_pairs": 12,
+    "minhash_similar_candidate_pairs": 11,
+    "candidate_precision": 0.75,
+    "candidate_recall": 1.0
+  },
+  "pairs": [
+    {
+      "left": "real_3f26c410993a46",
+      "right": "real_3f26c410993a46_v1",
+      "exact_jaccard": 0.9698848538529672,
+      "minhash_estimate": 0.9916666666666667,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_3f26c410993a46",
+      "right": "real_3f26c410993a46_v2",
+      "exact_jaccard": 0.9035714285714286,
+      "minhash_estimate": 0.925,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_3f26c410993a46",
+      "right": "real_3f26c410993a46_v3",
+      "exact_jaccard": 0.8345323741007195,
+      "minhash_estimate": 0.8333333333333334,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_3f26c410993a46",
+      "right": "real_3f26c410993a46_v4",
+      "exact_jaccard": 0.64375,
+      "minhash_estimate": 0.6416666666666667,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46",
+      "right": "real_73d3869153ee39",
+      "exact_jaccard": 0.0010197144799456153,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46",
+      "right": "real_73d3869153ee39_v1",
+      "exact_jaccard": 0.0010344827586206897,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46",
+      "right": "real_73d3869153ee39_v2",
+      "exact_jaccard": 0.0010645848119233499,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46",
+      "right": "real_73d3869153ee39_v3",
+      "exact_jaccard": 0.0011169024571854058,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46",
+      "right": "real_73d3869153ee39_v4",
+      "exact_jaccard": 0.0008333333333333334,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v1",
+      "right": "real_3f26c410993a46_v2",
+      "exact_jaccard": 0.8751099384344767,
+      "minhash_estimate": 0.9166666666666666,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_3f26c410993a46_v1",
+      "right": "real_3f26c410993a46_v3",
+      "exact_jaccard": 0.8214285714285714,
+      "minhash_estimate": 0.825,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_3f26c410993a46_v1",
+      "right": "real_3f26c410993a46_v4",
+      "exact_jaccard": 0.6191732629727352,
+      "minhash_estimate": 0.6333333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v1",
+      "right": "real_73d3869153ee39",
+      "exact_jaccard": 0.0010197144799456153,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v1",
+      "right": "real_73d3869153ee39_v1",
+      "exact_jaccard": 0.0010344827586206897,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v1",
+      "right": "real_73d3869153ee39_v2",
+      "exact_jaccard": 0.0010645848119233499,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v1",
+      "right": "real_73d3869153ee39_v3",
+      "exact_jaccard": 0.0011169024571854058,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v1",
+      "right": "real_73d3869153ee39_v4",
+      "exact_jaccard": 0.0008333333333333334,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v2",
+      "right": "real_3f26c410993a46_v3",
+      "exact_jaccard": 0.7392857142857143,
+      "minhash_estimate": 0.7583333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v2",
+      "right": "real_3f26c410993a46_v4",
+      "exact_jaccard": 0.7147058823529412,
+      "minhash_estimate": 0.7,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v2",
+      "right": "real_73d3869153ee39",
+      "exact_jaccard": 0.0010526315789473684,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v2",
+      "right": "real_73d3869153ee39_v1",
+      "exact_jaccard": 0.0010683760683760685,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v2",
+      "right": "real_73d3869153ee39_v2",
+      "exact_jaccard": 0.0011005135730007337,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v2",
+      "right": "real_73d3869153ee39_v3",
+      "exact_jaccard": 0.001156515034695451,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v2",
+      "right": "real_73d3869153ee39_v4",
+      "exact_jaccard": 0.0008665511265164644,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v3",
+      "right": "real_3f26c410993a46_v4",
+      "exact_jaccard": 0.47946428571428573,
+      "minhash_estimate": 0.475,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v3",
+      "right": "real_73d3869153ee39",
+      "exact_jaccard": 0.0010877447425670776,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v3",
+      "right": "real_73d3869153ee39_v1",
+      "exact_jaccard": 0.0011045655375552283,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v3",
+      "right": "real_73d3869153ee39_v2",
+      "exact_jaccard": 0.0011389521640091116,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v3",
+      "right": "real_73d3869153ee39_v3",
+      "exact_jaccard": 0.001199040767386091,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v3",
+      "right": "real_73d3869153ee39_v4",
+      "exact_jaccard": 0.0009025270758122744,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v4",
+      "right": "real_73d3869153ee39",
+      "exact_jaccard": 0.0011723329425556857,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v4",
+      "right": "real_73d3869153ee39_v1",
+      "exact_jaccard": 0.0011918951132300357,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v4",
+      "right": "real_73d3869153ee39_v2",
+      "exact_jaccard": 0.0012320328542094457,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v4",
+      "right": "real_73d3869153ee39_v3",
+      "exact_jaccard": 0.0013026487190620929,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_3f26c410993a46_v4",
+      "right": "real_73d3869153ee39_v4",
+      "exact_jaccard": 0.0009915716410510659,
+      "minhash_estimate": 0.0,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_73d3869153ee39",
+      "right": "real_73d3869153ee39_v1",
+      "exact_jaccard": 0.9684953829440521,
+      "minhash_estimate": 0.9916666666666667,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_73d3869153ee39",
+      "right": "real_73d3869153ee39_v2",
+      "exact_jaccard": 0.9032778076303063,
+      "minhash_estimate": 0.9,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_73d3869153ee39",
+      "right": "real_73d3869153ee39_v3",
+      "exact_jaccard": 0.8061440677966102,
+      "minhash_estimate": 0.8083333333333333,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_73d3869153ee39",
+      "right": "real_73d3869153ee39_v4",
+      "exact_jaccard": 0.6506342494714588,
+      "minhash_estimate": 0.6833333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_73d3869153ee39_v1",
+      "right": "real_73d3869153ee39_v2",
+      "exact_jaccard": 0.8726591760299626,
+      "minhash_estimate": 0.8916666666666667,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_73d3869153ee39_v1",
+      "right": "real_73d3869153ee39_v3",
+      "exact_jaccard": 0.7924427887174029,
+      "minhash_estimate": 0.8,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_73d3869153ee39_v1",
+      "right": "real_73d3869153ee39_v4",
+      "exact_jaccard": 0.6353503184713376,
+      "minhash_estimate": 0.6833333333333333,
+      "lsh_candidate": false
+    },
+    {
+      "left": "real_73d3869153ee39_v2",
+      "right": "real_73d3869153ee39_v3",
+      "exact_jaccard": 0.7839305103148752,
+      "minhash_estimate": 0.8,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_73d3869153ee39_v2",
+      "right": "real_73d3869153ee39_v4",
+      "exact_jaccard": 0.6496149614961496,
+      "minhash_estimate": 0.6916666666666667,
+      "lsh_candidate": true
+    },
+    {
+      "left": "real_73d3869153ee39_v3",
+      "right": "real_73d3869153ee39_v4",
+      "exact_jaccard": 0.6854791299235744,
+      "minhash_estimate": 0.7416666666666667,
+      "lsh_candidate": false
+    }
+  ]
+}
